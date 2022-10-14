@@ -1,0 +1,2361 @@
+.mediaViewInfo {
+	--web-view-name: slider;
+	--web-view-id: slider;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: slider;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.slider_Class {
+	position: absolute;
+	width: 1280px;
+	height: 6432px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: slider;
+	--web-view-id: slider;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.JoinUs_Class {
+	position: absolute;
+	width: 1280px;
+	height: 1040px;
+	left: 0px;
+	top: 5392px;
+	overflow: visible;
+}
+.Background_Class {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Background {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 1040px;
+	left: 0px;
+	top: 0px;
+}
+.SectionTitle_Class {
+	position: absolute;
+	width: 403.5px;
+	height: 64.5px;
+	left: 59px;
+	top: 80px;
+	overflow: visible;
+}
+.CONTACTEZ-NOUS_Class {
+	left: 0.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 404px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+.Ligne_2_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_2 {
+	overflow: visible;
+	position: absolute;
+	width: 403px;
+	height: 5px;
+	left: 0px;
+	top: 64.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_35_Class {
+	position: absolute;
+	width: 376.329px;
+	height: 50.032px;
+	left: 68.671px;
+	top: 562.821px;
+	overflow: visible;
+}
+.Icon_material-email_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-email {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 46.529px;
+	left: 0px;
+	top: 3.503px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Icon_awesome-facebook_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-facebook {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 50.032px;
+	left: 108.489px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Icon_ionic-logo-youtube_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_ionic-logo-youtube {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 46.528px;
+	left: 216.979px;
+	top: 3.503px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Icon_material-location-on_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-location-on {
+	overflow: visible;
+	position: absolute;
+	width: 39.4px;
+	height: 44.528px;
+	left: 336.929px;
+	top: 3.503px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_46_Class {
+	position: absolute;
+	width: 552.363px;
+	height: 313px;
+	left: 668px;
+	top: 190px;
+	overflow: visible;
+}
+.Groupe_36_Class {
+	position: absolute;
+	width: 552.363px;
+	height: 76.662px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Container_Junction__Race_Cours_Class {
+	left: 165.363px;
+	top: 10.662px;
+	position: absolute;
+	overflow: visible;
+	width: 388px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(116,161,63,1);
+}
+.Adresse_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(255,255,255,1);
+}
+.Groupe_37_Class {
+	position: absolute;
+	width: 366px;
+	height: 108px;
+	left: 0px;
+	top: 121px;
+	overflow: visible;
+}
+.ID223_578_507_736_223_558_876__Class {
+	left: 155px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(116,161,63,1);
+}
+.Tl_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(255,255,255,1);
+}
+.Groupe_38_Class {
+	position: absolute;
+	width: 437px;
+	height: 46px;
+	left: 0px;
+	top: 267px;
+	overflow: visible;
+}
+.Email_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(255,255,255,1);
+}
+.sil-campusgmailcom_Class {
+	left: 165px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 273px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(116,161,63,1);
+}
+.Groupe_47_Class {
+	position: absolute;
+	width: 1280px;
+	height: 48px;
+	left: 0px;
+	top: 992px;
+	overflow: visible;
+}
+.BackgroundCopyright_Class {
+	fill: rgba(68,67,67,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BackgroundCopyright {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+._2022_Copyright_SIL_Campus_Gha_Class {
+	left: 272px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 750px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.FullLogo_Class {
+	position: absolute;
+	width: 522px;
+	height: 208px;
+	left: 48px;
+	top: 220px;
+	overflow: visible;
+}
+.FullLogo__Class {
+	position: absolute;
+	width: 372px;
+	height: 168px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.ID1535470797298-removebg-previ_Class {
+	position: absolute;
+	width: 164px;
+	height: 164px;
+	left: 0px;
+	top: 4px;
+	overflow: visible;
+}
+.SIL_CAMPUS_GHANA_Class {
+	left: 173px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 174px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(117,161,63,1);
+}
+.LogoArea_Class {
+	opacity: 0;
+	fill: rgba(112,112,112,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.LogoArea {
+	position: absolute;
+	overflow: visible;
+	width: 372px;
+	height: 168px;
+	left: 0px;
+	top: 0px;
+}
+.Centre_dExcellence_et_de_Disci_Class {
+	left: 0px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 523px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(116,161,63,1);
+}
+.Groupe_45_Class {
+	position: absolute;
+	width: 1141.5px;
+	height: 124.174px;
+	left: 69px;
+	top: 687.5px;
+	overflow: visible;
+}
+.Groupe_39_Class {
+	position: absolute;
+	width: 944px;
+	height: 33px;
+	left: 12.5px;
+	top: 47.5px;
+	overflow: visible;
+}
+.Accueil_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.Nos_services_Class {
+	left: 150px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.Nos_services_bh_Class {
+	left: 368px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.Nos_tarifs_Class {
+	left: 583px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.Contactez-nous_Class {
+	left: 761px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.returnToTop_Class {
+	position: absolute;
+	width: 37px;
+	height: 65.64px;
+	left: 1072.5px;
+	top: 30.5px;
+	overflow: visible;
+}
+.Polygone_1_Class {
+	fill: rgba(255,255,255,1);
+}
+.Polygone_1 {
+	overflow: visible;
+	position: absolute;
+	width: 37px;
+	height: 28px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trac_5_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_5 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 63px;
+	left: 18.5px;
+	top: 2.64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_6_Class {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_6 {
+	overflow: visible;
+	position: absolute;
+	width: 1141.5px;
+	height: 4px;
+	left: 0px;
+	top: 124.174px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_7_Class {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_7 {
+	overflow: visible;
+	position: absolute;
+	width: 1138px;
+	height: 4px;
+	left: 2px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Gallery_Class {
+	position: absolute;
+	width: 1114px;
+	height: 648px;
+	left: 83px;
+	top: 3455px;
+	overflow: visible;
+}
+.Groupe_15_Class {
+	position: absolute;
+	width: 593px;
+	height: 64.5px;
+	left: 6px;
+	top: 108px;
+	overflow: visible;
+}
+.NoTRE_GALERIE_DIMAGES__Class {
+	left: 0.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 592px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(116,161,63,1);
+	text-transform: uppercase;
+}
+.Ligne_2_bs_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_2_bs {
+	overflow: visible;
+	position: absolute;
+	width: 593px;
+	height: 5px;
+	left: 0px;
+	top: 64.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_13_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 506px;
+	height: 205px;
+	left: 608px;
+	top: 220px;
+}
+.Groupe_42_Class {
+	position: absolute;
+	width: 1114px;
+	height: 429px;
+	left: 0px;
+	top: 219px;
+	overflow: visible;
+}
+.Facade_Class {
+	position: absolute;
+	width: 582px;
+	height: 425px;
+	left: 0px;
+	top: 4px;
+	overflow: visible;
+}
+.Groupe_18_Class {
+	position: absolute;
+	width: 272px;
+	height: 94px;
+	left: 54px;
+	top: 299px;
+	overflow: visible;
+}
+.Rectangle_14_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 272px;
+	height: 94px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_17_Class {
+	position: absolute;
+	width: 219px;
+	height: 43px;
+	left: 23px;
+	top: 22px;
+	overflow: visible;
+}
+.Agrandir_Class {
+	left: 56px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 164px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+.Icon_awesome-search-plus_Class {
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-search-plus {
+	overflow: visible;
+	position: absolute;
+	width: 38px;
+	height: 41px;
+	left: 0px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_5_Class {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_5 {
+	overflow: visible;
+	position: absolute;
+	width: 173px;
+	height: 3px;
+	left: 46.5px;
+	top: 72px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Portail_Class {
+	position: absolute;
+	width: 506px;
+	height: 207px;
+	left: 608px;
+	top: 0px;
+	overflow: visible;
+}
+.Portail_b_Class {
+	position: absolute;
+	width: 506px;
+	height: 207px;
+	left: 608px;
+	top: 218px;
+	overflow: visible;
+}
+.Ligne_4_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 7px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_4 {
+	overflow: visible;
+	position: absolute;
+	width: 248px;
+	height: 7px;
+	left: 436.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Staffs_Class {
+	position: absolute;
+	width: 1120px;
+	height: 827px;
+	left: 80px;
+	top: 4238px;
+	overflow: visible;
+}
+.SectionTitle_b_Class {
+	position: absolute;
+	width: 526.5px;
+	height: 64.5px;
+	left: 5px;
+	top: 75px;
+	overflow: visible;
+}
+.STAFFS__STATISTIQUES_Class {
+	left: 0.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 527px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(116,161,63,1);
+	text-transform: uppercase;
+}
+.Ligne_2_b_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_2_b {
+	overflow: visible;
+	position: absolute;
+	width: 526px;
+	height: 5px;
+	left: 0px;
+	top: 64.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_27_Class {
+	position: absolute;
+	width: 1120px;
+	height: 634px;
+	left: 0px;
+	top: 193px;
+	overflow: visible;
+}
+.BackgroundCard_Class {
+	opacity: 0.84;
+	position: absolute;
+	width: 1120px;
+	height: 634px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.BackgroundCard1_Class {
+	opacity: 0.49;
+	fill: rgba(55,55,55,1);
+}
+.BackgroundCard1 {
+	position: absolute;
+	overflow: visible;
+	width: 1120px;
+	height: 634px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_25_Class {
+	position: absolute;
+	width: 736px;
+	height: 529px;
+	left: 201.644px;
+	top: 55px;
+	overflow: visible;
+}
+.Groupe_21_Class {
+	position: absolute;
+	width: 720px;
+	height: 249px;
+	left: 5px;
+	top: 0px;
+	overflow: visible;
+}
+.Groupe_20_Class {
+	position: absolute;
+	width: 320px;
+	height: 248px;
+	left: 0px;
+	top: 1px;
+	overflow: visible;
+}
+.Rectangle_16_Class {
+	fill: rgba(116,161,63,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 248px;
+	left: 0px;
+	top: 0px;
+}
+.Professeurs_Class {
+	left: 20px;
+	top: 142px;
+	position: absolute;
+	overflow: visible;
+	width: 282px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.ID320_Class {
+	left: 93px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 74px;
+	color: rgba(255,255,255,1);
+}
+.Groupe_20_ci_Class {
+	position: absolute;
+	width: 320px;
+	height: 248px;
+	left: 400px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_16_cj_Class {
+	fill: rgba(116,161,63,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16_cj {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 248px;
+	left: 0px;
+	top: 0px;
+}
+.Directions_Class {
+	left: 33px;
+	top: 142px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.ID13_Class {
+	left: 115px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 74px;
+	color: rgba(255,255,255,1);
+}
+.Groupe_24_Class {
+	position: absolute;
+	width: 736px;
+	height: 248px;
+	left: 0px;
+	top: 281px;
+	overflow: visible;
+}
+.Groupe_22_Class {
+	position: absolute;
+	width: 320px;
+	height: 248px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_16_co_Class {
+	fill: rgba(116,161,63,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16_co {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 248px;
+	left: 0px;
+	top: 0px;
+}
+.Admis_Class {
+	left: 87px;
+	top: 142px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.ID100__Class {
+	left: 55px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 74px;
+	color: rgba(255,255,255,1);
+}
+.Groupe_23_Class {
+	position: absolute;
+	width: 320px;
+	height: 248px;
+	left: 416px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_16_cs_Class {
+	fill: rgba(116,161,63,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16_cs {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 248px;
+	left: 0px;
+	top: 0px;
+}
+.Rdoublants_Class {
+	left: 16px;
+	top: 142px;
+	position: absolute;
+	overflow: visible;
+	width: 288px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.ID01__Class {
+	left: 69px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 183px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 74px;
+	color: rgba(255,255,255,1);
+}
+.Ligne_10_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 7px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_10 {
+	overflow: visible;
+	position: absolute;
+	width: 248px;
+	height: 7px;
+	left: 436.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rejoingez_llite_maintenant_Class {
+	left: 221px;
+	top: 5197px;
+	position: absolute;
+	overflow: visible;
+	width: 840px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: UD Digi Kyokasho NK-B;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 58px;
+	color: rgba(0,0,0,1);
+}
+.Roadmap_Class {
+	position: absolute;
+	width: 1127px;
+	height: 718.537px;
+	left: 77px;
+	top: 2644px;
+	overflow: visible;
+}
+.SectionTitle_cy_Class {
+	position: absolute;
+	width: 555.5px;
+	height: 64.5px;
+	left: 6px;
+	top: 97px;
+	overflow: visible;
+}
+.Un_mot_de_Mr_le_Directeur_Class {
+	left: 0.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 556px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(116,161,63,1);
+	text-transform: uppercase;
+}
+.Ligne_2_c_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_2_c {
+	overflow: visible;
+	position: absolute;
+	width: 555px;
+	height: 5px;
+	left: 0px;
+	top: 64.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.RoadmapText_Class {
+	position: absolute;
+	width: 642px;
+	height: 451px;
+	left: 0px;
+	top: 203px;
+	overflow: visible;
+}
+.Situ_en_plein_Cur_de_la_ville__Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 643px;
+	height: 336px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+.Nous_vous_attendons_avec__impa_Class {
+	left: 2px;
+	top: 339px;
+	position: absolute;
+	overflow: visible;
+	width: 529px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	color: rgba(116,161,63,1);
+}
+.MrDirector_Class {
+	position: absolute;
+	width: 427px;
+	height: 517.537px;
+	left: 700px;
+	top: 201px;
+	overflow: visible;
+}
+.Ligne_9_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 7px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_9 {
+	overflow: visible;
+	position: absolute;
+	width: 248px;
+	height: 7px;
+	left: 436.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.NosServices_Class {
+	position: absolute;
+	width: 1120px;
+	height: 563px;
+	left: 80px;
+	top: 1950px;
+	overflow: visible;
+}
+.Groupe_6_Class {
+	position: absolute;
+	width: 332.5px;
+	height: 64.5px;
+	left: 0px;
+	top: 31px;
+	overflow: visible;
+}
+.Nos_services__Class {
+	left: 0.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 333px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(116,161,63,1);
+	text-transform: uppercase;
+}
+.Ligne_2_da_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_2_da {
+	overflow: visible;
+	position: absolute;
+	width: 328px;
+	height: 5px;
+	left: 0px;
+	top: 64.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.CoursAnglais_Class {
+	position: absolute;
+	width: 277px;
+	height: 421px;
+	left: 0px;
+	top: 142px;
+	overflow: visible;
+}
+.BackgroundImg_Class {
+	position: absolute;
+	width: 277px;
+	height: 420px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.BackgroundCard_dd_Class {
+	opacity: 0.5;
+	fill: url(#BackgroundCard_dd);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BackgroundCard_dd {
+	position: absolute;
+	overflow: visible;
+	width: 277px;
+	height: 420px;
+	left: 0px;
+	top: 1px;
+}
+.Cours__dAnglais_Class {
+	left: 61px;
+	top: 95px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Apprenez_et_perfectionnez__vou_Class {
+	left: 18px;
+	top: 194px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.CoursFrancais_Class {
+	position: absolute;
+	width: 277px;
+	height: 420px;
+	left: 284px;
+	top: 143px;
+	overflow: visible;
+}
+.BackgroundImg2_Class {
+	position: absolute;
+	width: 277px;
+	height: 420px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.BackgroundCard_dj_Class {
+	opacity: 0.5;
+	fill: url(#BackgroundCard_dj);
+}
+.BackgroundCard_dj {
+	position: absolute;
+	overflow: visible;
+	width: 277px;
+	height: 420px;
+	left: 0px;
+	top: 0px;
+}
+.Cours__de_Francais_Class {
+	left: 42px;
+	top: 94px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Apprenez_et_perfectionnez__vou_dl_Class {
+	left: 18px;
+	top: 193px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.CoursEspagnol_Class {
+	position: absolute;
+	width: 277px;
+	height: 420px;
+	left: 567px;
+	top: 143px;
+	overflow: visible;
+}
+.BackgroundImg3_Class {
+	position: absolute;
+	width: 277px;
+	height: 420px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.BackgroundCard_dp_Class {
+	opacity: 0.59;
+	fill: url(#BackgroundCard_dp);
+}
+.BackgroundCard_dp {
+	position: absolute;
+	overflow: visible;
+	width: 277px;
+	height: 420px;
+	left: 0px;
+	top: 0px;
+}
+.Cours__dEspagnol_Class {
+	left: 48px;
+	top: 94px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Apprenez_et_perfectionnez__vou_dr_Class {
+	left: 17px;
+	top: 193px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.CoursAllmand_Class {
+	position: absolute;
+	width: 269px;
+	height: 420px;
+	left: 851px;
+	top: 142px;
+	overflow: visible;
+}
+.BackgroundImg3_dt_Class {
+	position: absolute;
+	width: 269px;
+	height: 420px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.BackgroundCard_du_Class {
+	opacity: 0.5;
+	fill: rgba(0,0,0,1);
+}
+.BackgroundCard_du {
+	position: absolute;
+	overflow: visible;
+	width: 269px;
+	height: 420px;
+	left: 0px;
+	top: 0px;
+}
+.Cours__dallemand_Class {
+	left: 47px;
+	top: 95px;
+	position: absolute;
+	overflow: visible;
+	width: 183px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Apprenez_et_perfectionnez__vou_dw_Class {
+	left: 14px;
+	top: 194px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.Ligne_3_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 7px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_3 {
+	overflow: visible;
+	position: absolute;
+	width: 248px;
+	height: 7px;
+	left: 436.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.WhyUs_Class {
+	position: absolute;
+	width: 1280px;
+	height: 926.653px;
+	left: 0px;
+	top: 931.347px;
+	overflow: visible;
+}
+.Rectangle_19_Class {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_19 {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 760px;
+	left: 0px;
+	top: 166.653px;
+}
+.Quality_Class {
+	position: absolute;
+	width: 1280px;
+	height: 760px;
+	left: 0px;
+	top: 166.653px;
+	overflow: visible;
+}
+.Polyvalence_Class {
+	position: absolute;
+	width: 640px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_20_Class {
+	fill: rgba(116,161,63,1);
+}
+.Rectangle_20 {
+	position: absolute;
+	overflow: visible;
+	width: 640px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_51_Class {
+	position: absolute;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_25_Class {
+	fill: transparent;
+}
+.Rectangle_25 {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.photo1665668693_copie_Class {
+	position: absolute;
+	width: 189px;
+	height: 189px;
+	left: 66px;
+	top: 96px;
+	overflow: visible;
+}
+.Groupe_52_Class {
+	position: absolute;
+	width: 320px;
+	height: 380px;
+	left: 320px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_24_Class {
+	fill: transparent;
+}
+.Rectangle_24 {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_50_Class {
+	position: absolute;
+	width: 288px;
+	height: 256px;
+	left: 16px;
+	top: 62px;
+	overflow: visible;
+}
+.Polyvalence_d_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Voyez_ce_jeu_exquis_wallon_de__Class {
+	left: 0px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	height: 189px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+}
+.Dynamisme_Class {
+	position: absolute;
+	width: 640px;
+	height: 380px;
+	left: 640px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_21_Class {
+	fill: rgba(83,126,33,1);
+}
+.Rectangle_21 {
+	position: absolute;
+	overflow: visible;
+	width: 640px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_53_Class {
+	position: absolute;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_24_ee_Class {
+	fill: transparent;
+}
+.Rectangle_24_ee {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_50_ef_Class {
+	position: absolute;
+	width: 288px;
+	height: 256px;
+	left: 16px;
+	top: 62px;
+	overflow: visible;
+}
+.Dynamisme_eg_Class {
+	left: 95px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Voyez_ce_jeu_exquis_wallon_de__eh_Class {
+	left: 0px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	height: 189px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+}
+.Groupe_54_Class {
+	position: absolute;
+	width: 320px;
+	height: 380px;
+	left: 320px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_25_ej_Class {
+	fill: transparent;
+}
+.Rectangle_25_ej {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.photo1665669359_copie_Class {
+	position: absolute;
+	width: 189px;
+	height: 189px;
+	left: 66px;
+	top: 96px;
+	overflow: visible;
+}
+.International_Class {
+	position: absolute;
+	width: 640px;
+	height: 380px;
+	left: 640px;
+	top: 380px;
+	overflow: visible;
+}
+.Rectangle_22_Class {
+	fill: rgba(116,161,63,1);
+}
+.Rectangle_22 {
+	position: absolute;
+	overflow: visible;
+	width: 640px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_55_Class {
+	position: absolute;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_24_eo_Class {
+	fill: transparent;
+}
+.Rectangle_24_eo {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_50_ep_Class {
+	position: absolute;
+	width: 288px;
+	height: 255px;
+	left: 16px;
+	top: 63px;
+	overflow: visible;
+}
+.International_eq_Class {
+	left: 74px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 215px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Voyez_ce_jeu_exquis_wallon_de__er_Class {
+	left: 0px;
+	top: 66px;
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	height: 189px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+}
+.Groupe_56_Class {
+	position: absolute;
+	width: 320px;
+	height: 380px;
+	left: 320px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_25_et_Class {
+	fill: transparent;
+}
+.Rectangle_25_et {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Excellent_Class {
+	position: absolute;
+	width: 218px;
+	height: 218px;
+	left: 51px;
+	top: 81px;
+	overflow: visible;
+}
+.Excellence_Class {
+	position: absolute;
+	width: 640px;
+	height: 380px;
+	left: 0px;
+	top: 380px;
+	overflow: visible;
+}
+.Rectangle_23_Class {
+	fill: rgba(83,126,33,1);
+}
+.Rectangle_23 {
+	position: absolute;
+	overflow: visible;
+	width: 640px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_57_Class {
+	position: absolute;
+	width: 320px;
+	height: 380px;
+	left: 320px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_24_ey_Class {
+	fill: transparent;
+}
+.Rectangle_24_ey {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_50_ez_Class {
+	position: absolute;
+	width: 288px;
+	height: 255px;
+	left: 16px;
+	top: 63px;
+	overflow: visible;
+}
+.Excellence_e_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Voyez_ce_jeu_exquis_wallon_de__e_Class {
+	left: 0px;
+	top: 66px;
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	height: 189px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+}
+.Groupe_58_Class {
+	position: absolute;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_25_e_Class {
+	fill: transparent;
+}
+.Rectangle_25_e {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 380px;
+	left: 0px;
+	top: 0px;
+}
+.photo1665669612_copie_Class {
+	position: absolute;
+	width: 189px;
+	height: 189px;
+	left: 66px;
+	top: 96px;
+	overflow: visible;
+}
+.SectionTitle_e_Class {
+	position: absolute;
+	width: 826px;
+	height: 124.153px;
+	left: 89px;
+	top: 0px;
+	overflow: visible;
+}
+.Groupe_15_e_Class {
+	position: absolute;
+	width: 826px;
+	height: 64.5px;
+	left: 0px;
+	top: 59.653px;
+	overflow: visible;
+}
+.Pourquoi_CHoisiR_NOTRE_Campus__Class {
+	left: 0.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 824px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(116,161,63,1);
+	text-transform: uppercase;
+}
+.Ligne_2_e_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_2_e {
+	overflow: visible;
+	position: absolute;
+	width: 826px;
+	height: 5px;
+	left: 0px;
+	top: 64.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_4_e_Class {
+	fill: transparent;
+	stroke: rgba(116,161,63,1);
+	stroke-width: 7px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_4_e {
+	overflow: visible;
+	position: absolute;
+	width: 248px;
+	height: 7px;
+	left: 430.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.FirstScreen_Class {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Slider_fb_Class {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Background_fc_Class {
+	opacity: 0.97;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Background_fc {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 800px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_40_Class {
+	position: absolute;
+	width: 1280px;
+	height: 680px;
+	left: 0px;
+	top: 120px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: homepage1.html;
+	cursor: pointer;
+}
+.BackgroundSliderImg_Class {
+	position: absolute;
+	width: 1280px;
+	height: 680px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.BackgroundSlider_fg_Class {
+	opacity: 0.75;
+	fill: url(#BackgroundSlider_fg);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BackgroundSlider_fg {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 680px;
+	left: 0px;
+	top: 0px;
+}
+.SliderPosition_Class {
+	position: absolute;
+	width: 48px;
+	height: 160px;
+	left: 1208px;
+	top: 618px;
+	overflow: visible;
+}
+.Ellipse_1_Class {
+	fill: rgba(117,161,63,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+.Ellipse_2_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 48px;
+	left: 0px;
+	top: 56px;
+}
+.Ellipse_3_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	height: 48px;
+	left: 0px;
+	top: 112px;
+}
+.Info_Class {
+	position: absolute;
+	width: 713px;
+	height: 281px;
+	left: 56px;
+	top: 283px;
+	overflow: visible;
+}
+.Groupe_4_Class {
+	position: absolute;
+	width: 312px;
+	height: 80px;
+	left: 2px;
+	top: 201px;
+	overflow: visible;
+}
+.Button1_Class {
+	position: absolute;
+	width: 312px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_7_Class {
+	fill: rgba(117,161,63,1);
+	stroke: rgba(251,251,251,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 330px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+}
+.En_savoir_plus_Class {
+	left: 59px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Centre_dExcellence_et__de_Disc_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 714px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 52px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+.NavBar_Class {
+	position: absolute;
+	width: 1280px;
+	height: 118px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_6_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1298px;
+	height: 136px;
+	left: 0px;
+	top: 0px;
+}
+.Navbar_Class {
+	position: absolute;
+	width: 711px;
+	height: 33px;
+	left: 512px;
+	top: 43px;
+	overflow: visible;
+}
+.Accueil__Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 92px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(116,161,63,1);
+}
+.Nos_services_fv_Class {
+	left: 157px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(116,161,63,1);
+}
+._propos__Class {
+	left: 361px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(116,161,63,1);
+	text-transform: capitalize;
+}
+.Contactez-nous_fx_Class {
+	left: 528px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(116,161,63,1);
+}
+.Ligne_1_Class {
+	fill: transparent;
+	stroke: rgba(31,141,60,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1280px;
+	height: 4px;
+	left: 0px;
+	top: 118px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.FullLogo_fz_Class {
+	position: absolute;
+	width: 236px;
+	height: 118px;
+	left: 58px;
+	top: 0px;
+	overflow: visible;
+}
+.ID1535470797298-removebg-previ_f_Class {
+	position: absolute;
+	width: 111px;
+	height: 111px;
+	left: 3px;
+	top: 4px;
+	overflow: visible;
+}
+.SIL_CAMPUS_GHANA_f_Class {
+	left: 115px;
+	top: 25px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(117,161,63,1);
+}
+.LogoArea_f_Class {
+	opacity: 0;
+	fill: rgba(112,112,112,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.LogoArea_f {
+	position: absolute;
+	overflow: visible;
+	width: 236px;
+	height: 118px;
+	left: 0px;
+	top: 0px;
+}
