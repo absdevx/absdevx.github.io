@@ -329,7 +329,7 @@
 	position: absolute;
 	width: 522px;
 	height: 208px;
-	left: 48px;
+	left: 27px;
 	top: 220px;
 	overflow: visible;
 }
@@ -360,7 +360,7 @@
 	font-family: Arial;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 30px;
 	color: rgba(117,161,63,1);
 }
 .LogoArea_Class {
@@ -1159,10 +1159,10 @@
 	width: 643px;
 	height: 336px;
 	text-align: left;
-	font-family: Arial;
+	font-family: 'Segoe UI';
 	font-style: normal;
 	font-weight: normal;
-	font-size: 25px;
+	font-size: 20px;
 	color: rgba(0,0,0,1);
 }
 .Nous_vous_attendons_avec__impa_Class {
@@ -1176,7 +1176,8 @@
 	font-family: Segoe UI;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 42px;
+	margin-top: 10px;
+	font-size: 45px;
 	color: rgba(116,161,63,1);
 }
 .MrDirector_Class {
